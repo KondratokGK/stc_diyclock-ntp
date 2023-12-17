@@ -28,5 +28,5 @@ jobs:
       with:
         name: mcu-artifact
         path: |
-        main.hex
-        eeprom.hex
+          main.hex
+          eeprom.hex
