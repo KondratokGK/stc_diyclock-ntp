@@ -23,5 +23,5 @@ jobs:
     - name: make
       run: make
 
-    - name: make eeprom
-      run: make check
+    - name: eeprom
+      run: make eeprom
