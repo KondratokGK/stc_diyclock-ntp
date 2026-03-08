@@ -637,7 +637,7 @@ int main()
                 
         }
         
-        if ( (kmode == K_TEMP_DISP) || (ss>=85) && (ss<=89) ) {
+        if ( (kmode == K_TEMP_DISP) || (ss>=85) && (ss<=89) && (tt != 0 || ww != 0) ) {
 			dmode = M_TEMP_DISP;
 		} else {
 			dmode = M_NORMAL;
