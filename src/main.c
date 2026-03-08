@@ -209,7 +209,7 @@ enum Event {
 
 volatile enum Event event;
 
-void timer0_isr() __interrupt 1 __using 1
+void timer0_isr() __interrupt(1) __using(1)
 {
     uint8_t tmp;
     enum Event ev = EV_NONE;
@@ -766,7 +766,7 @@ uint8_t charToint (char h, char l){
 UART
 -----------------------------*/
 
-void UART1_Routine(void) __interrupt 4 __using 1
+void UART1_Routine(void) __interrupt(4) __using(1)
 {
 	
 	
